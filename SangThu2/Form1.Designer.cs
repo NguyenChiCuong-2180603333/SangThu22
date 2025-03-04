@@ -29,67 +29,69 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.txtUserName = new System.Windows.Forms.TextBox();
+            this.textboxusername = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtmatkhau = new System.Windows.Forms.TextBox();
+            this.textboxmatkhau = new System.Windows.Forms.TextBox();
             this.btnlogin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(408, 72);
+            this.label1.Location = new System.Drawing.Point(272, 47);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(88, 20);
+            this.label1.Size = new System.Drawing.Size(55, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Đăng nhập";
+            this.label1.Text = "Username";
             // 
-            // txtUserName
+            // textboxusername
             // 
-            this.txtUserName.Location = new System.Drawing.Point(526, 66);
-            this.txtUserName.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(112, 26);
-            this.txtUserName.TabIndex = 1;
+            this.textboxusername.Location = new System.Drawing.Point(351, 43);
+            this.textboxusername.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.textboxusername.Name = "textboxusername";
+            this.textboxusername.Size = new System.Drawing.Size(76, 20);
+            this.textboxusername.TabIndex = 1;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(408, 115);
+            this.label2.Location = new System.Drawing.Point(272, 75);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(77, 20);
+            this.label2.Size = new System.Drawing.Size(53, 13);
             this.label2.TabIndex = 0;
-            this.label2.Text = "Mật Khẩu";
+            this.label2.Text = "Password";
             // 
-            // txtmatkhau
+            // textboxmatkhau
             // 
-            this.txtmatkhau.Location = new System.Drawing.Point(526, 115);
-            this.txtmatkhau.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.txtmatkhau.Name = "txtmatkhau";
-            this.txtmatkhau.Size = new System.Drawing.Size(112, 26);
-            this.txtmatkhau.TabIndex = 2;
+            this.textboxmatkhau.Location = new System.Drawing.Point(351, 75);
+            this.textboxmatkhau.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.textboxmatkhau.Name = "textboxmatkhau";
+            this.textboxmatkhau.Size = new System.Drawing.Size(76, 20);
+            this.textboxmatkhau.TabIndex = 2;
             // 
             // btnlogin
             // 
-            this.btnlogin.Location = new System.Drawing.Point(526, 171);
-            this.btnlogin.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnlogin.Location = new System.Drawing.Point(351, 111);
+            this.btnlogin.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btnlogin.Name = "btnlogin";
-            this.btnlogin.Size = new System.Drawing.Size(84, 29);
+            this.btnlogin.Size = new System.Drawing.Size(56, 19);
             this.btnlogin.TabIndex = 3;
             this.btnlogin.Text = "Login";
             this.btnlogin.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(900, 562);
+            this.ClientSize = new System.Drawing.Size(600, 365);
             this.Controls.Add(this.btnlogin);
-            this.Controls.Add(this.txtmatkhau);
-            this.Controls.Add(this.txtUserName);
+            this.Controls.Add(this.textboxmatkhau);
+            this.Controls.Add(this.textboxusername);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -100,9 +102,9 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtUserName;
+        private System.Windows.Forms.TextBox textboxusername;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtmatkhau;
+        private System.Windows.Forms.TextBox textboxmatkhau;
         private System.Windows.Forms.Button btnlogin;
     }
 }
